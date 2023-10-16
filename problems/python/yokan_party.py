@@ -21,7 +21,7 @@ def check(mid: int, k: int, li: list[int]) -> bool:
       return True
   return False
 
-def binary_serch(l, k, li) -> int:
+def binary_search(l: int, k: int, li: list[int]) -> int:
   max: int = l // (k + 1)
   min: int = 1
   while min < max:
